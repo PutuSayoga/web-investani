@@ -1,25 +1,18 @@
 <?php
 session_start();
+
+include_once 'Koneksi.php';
+
 error_reporting(0);
 if(!isset($_SESSION['username'])){
     die("Anda belum terdaftar");
 }
 
-$db_host = 'localhost'; // Nama Server
-$db_user = 'root'; // User Server
-$db_pass = ''; // Password Server
-$db_name = 'db_investani'; // Nama Database
-
-$conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
-
-if (!$conn) {
-    die ('Gagal terhubung dengan MySQL: ' . mysqli_connect_error());    
-}
 $nama = $_SESSION['username'];
 $get = "SELECT * 
         FROM user
         WHERE username='$nama'";
-$set = mysqli_query($conn, $get);
+$set = mysqli_query($koneksi, $get);
 $doing = mysqli_fetch_array($set);
 $saldo = $doing['saldo'];
 
@@ -29,10 +22,10 @@ $id = $_GET["id"];
 
 $sql = "select * from kegiatan where id='$id'";
         
-$query = mysqli_query($conn, $sql);
+$query = mysqli_query($koneksi, $sql);
 
 if (!$query) {
-    die ('SQL Error: ' . mysqli_error($conn));
+    die ('SQL Error: ' . mysqli_error($koneksi));
 }
 
 $row = mysqli_fetch_array($query);
@@ -40,7 +33,7 @@ $row = mysqli_fetch_array($query);
 $sql1 = 'SELECT * 
         FROM kegiatan';
         
-$query1 = mysqli_query($conn, $sql);
+$query1 = mysqli_query($koneksi, $sql);
 
 ?>
 

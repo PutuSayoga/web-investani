@@ -1,16 +1,10 @@
 <?php
-    define('DBHOST', 'localhost');
-    define('DBUSER', 'root');
-    define('DBPASS', '');
-    define('DBNAME', 'db_investani');
-    $db = new mysqli(DBHOST, DBUSER, DBPASS, DBNAME);
-    if ($db->connect_error) {
-        die("Could not connect to database: " . $db->connect_error);
-    }
-    
-     
-        $id = $_POST['getDetail'];  
-    ?>
+
+    include_once 'Koneksi.php';
+
+    $id = $_POST['getDetail'];  
+
+?>
 <!-- Modal -->
 <form class="form-donation" action="cek-selesai.php" method="post"">
     <div class="row">
@@ -44,7 +38,7 @@
                                                     $namaIn = "";
                                                     $namaPeng = "";
                                                     $totSaham = 0;
-                                                    $query = mysqli_query($db, $sql);
+                                                    $query = mysqli_query($koneksi, $sql);
                                                     while ($row = mysqli_fetch_array($query))
                                                         {
                                                             $inv = 0.75 * $row['Untung'];

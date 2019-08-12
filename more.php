@@ -1,19 +1,13 @@
 <?php
-    define('DBHOST', 'localhost');
-    define('DBUSER', 'root');
-    define('DBPASS', '');
-    define('DBNAME', 'db_investani');
-    $db = new mysqli(DBHOST, DBUSER, DBPASS, DBNAME);
-    if ($db->connect_error) {
-        die("Could not connect to database: " . $db->connect_error);
-    }
-    
-     
-        $id = $_POST['getDetail'];
-        $sql = mysqli_query($db, "SELECT * from kegiatan where id='$id'");
-        $row = mysqli_fetch_array($sql);
-        $_SESSION['proyek']= $row['proyek'];    
-    ?>
+
+    include_once 'Koneksi.php';
+
+    $id = $_POST['getDetail'];
+    $sql = mysqli_query($koneksi, "SELECT * from kegiatan where id='$id'");
+    $row = mysqli_fetch_array($sql);
+    $_SESSION['proyek']= $row['proyek'];    
+
+?>
 <!-- Modal -->
 <form class="form-donation">
     <div class="row">
@@ -40,7 +34,7 @@
                                                     <?php
                                                     $sql = "select * from proyek";
 
-                                                    $query = mysqli_query($db, $sql);
+                                                    $query = mysqli_query($koneksi, $sql);
                                                     while ($row = mysqli_fetch_array($query))
                                                     {
                                                         $nama1 = $row['namaProyek'];

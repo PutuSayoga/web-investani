@@ -1,12 +1,6 @@
 <?php
-define('DBHOST', 'localhost');
-define('DBUSER', 'root');
-define('DBPASS', '');
-define('DBNAME', 'db_investani');
-$db = new mysqli(DBHOST, DBUSER, DBPASS, DBNAME);
-if ($db->connect_error) {
-    die("Could not connect to database: " . $db->connect_error);
-}
+
+include_once 'Koneksi.php';
 
 $id = $_POST['getDetail'];
 

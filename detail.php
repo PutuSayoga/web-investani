@@ -1,15 +1,9 @@
 <?php
-define('DBHOST', 'localhost');
-define('DBUSER', 'root');
-define('DBPASS', '');
-define('DBNAME', 'db_investani');
-$db = new mysqli(DBHOST, DBUSER, DBPASS, DBNAME);
-if ($db->connect_error) {
-    die("Could not connect to database: " . $db->connect_error);
-}
+
+include_once 'Koneksi.php';
 
 $id = $_POST['getDetail'];
-$sql = mysqli_query($db, "SELECT * from kegiatan where id='$id'");
+$sql = mysqli_query($koneksi, "SELECT * from kegiatan where id='$id'");
 $row = mysqli_fetch_array($sql);
 $_SESSION['proyek']= $row['proyek'];
 $_SESSION['danasisa'] = $row['danasisa'];
