@@ -1,0 +1,1 @@
+web-based application managed by PT. Perkebunan Nusantara X (PTPN X) which provides a place for the whole community to be able to invest in the sugar cane agriculture sector
