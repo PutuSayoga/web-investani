@@ -3,7 +3,7 @@
 session_start();
  
 // menghubungkan dengan koneksi
-include 'Koneksi.php';
+include_once 'Koneksi.php';
  
 // menangkap data yang dikirim dari form
 $tanggal = $_POST['tanggal'];
@@ -19,7 +19,7 @@ if($_POST['rowid']) {
         $id = $_POST['rowid'];
         // mengambil data berdasarkan id
         $sql = "SELECT * FROM kegiatan WHERE id = $id";
-        $query = mysqli_query($conn, $sql);
+        $query = mysqli_query($koneksi, $sql);
         while ($row = mysqli_fetch_array($query))
         {
         	$awal = $row['danakumpul'];

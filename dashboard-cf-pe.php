@@ -1,18 +1,10 @@
 <?php
     session_start();
     
+    include_once 'Koneksi.php';
+
     if(!isset($_SESSION['username'])){
         die();
-    }
-    
-    $db_host = 'localhost';
-    $db_user = 'root';
-    $db_pass = '';
-    $db_name = 'db_investani';
-    
-    $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
-    if (!$conn) {
-        die ();    
     }
 
     $nama = $_SESSION['username'];
@@ -128,7 +120,7 @@
                                                 <tbody>
                                                     <?php
                                                         $sql = "select * from kegiatan where status='Berlangsung' and keterangan='Pengerjaan Proyek' order by id desc";
-                                                        $query = mysqli_query($conn, $sql);
+                                                        $query = mysqli_query($koneksi, $sql);
                                                         while ($row = mysqli_fetch_array($query))
                                                         {
                                                                 $kumpul=$row['danakumpul'];
