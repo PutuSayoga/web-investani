@@ -3,18 +3,8 @@
 session_start();
  
 // menghubungkan dengan koneksi
-include 'Koneksi.php';
+include_once 'Koneksi.php';
 
-$db_host = 'localhost'; // Nama Server
-$db_user = 'root'; // User Server
-$db_pass = ''; // Password Server
-$db_name = 'db_investani'; // Nama Database
-
-$conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
-if (!$conn) {
-    die ('Gagal terhubung dengan MySQL: ' . mysqli_connect_error());    
-}
- 
 // menangkap data yang dikirim dari form
 $proyek = $_POST['proyek'];
 $harga = $_POST['harga'];
@@ -25,7 +15,7 @@ $foto = $_POST['foto'];
 $lembar = $_POST['lembar'];
 
 $sqli = "SELECT * FROM kegiatan WHERE proyek='$proyek'";
-$query = mysqli_query($conn, $sqli);
+$query = mysqli_query($koneksi, $sqli);
 $doing = mysqli_fetch_array($query);
 $tmp1 = $doing['sisasaham'];
 $tmp2 = $doing['danakumpul'];

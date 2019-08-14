@@ -1,18 +1,10 @@
 <?php
 session_start();
 
+include_once 'Koneksi.php';
+
 if(!isset($_SESSION['username'])){
-    die();
-}
-
-$db_host = 'localhost';
-$db_user = 'root';
-$db_pass = '';
-$db_name = 'db_investani';
-
-$conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
-if (!$conn) {
-    die ();    
+    die("Anda belum terdaftar");
 }
 
 ?>
@@ -119,7 +111,7 @@ if (!$conn) {
                                                 <tbody>
                                                 <?php
                                                 $sql = "select * from proyek where status='Menunggu Persetujuan' and keterangan='Pengambilan Dana'";
-												$query = mysqli_query($conn, $sql);
+												$query = mysqli_query($koneksi, $sql);
                                                     while ($row = mysqli_fetch_array($query))
                                                     {
                                                         $id = $row['id'];
@@ -162,7 +154,7 @@ if (!$conn) {
                                                 <tbody>
                                                 <?php
                                                 $sql = "select * from kegiatan where status='Menunggu Persetujuan' and keterangan='Pembukaan Proyek'";
-                                                $query = mysqli_query($conn, $sql);
+                                                $query = mysqli_query($koneksi, $sql);
                                                     while ($row = mysqli_fetch_array($query))
                                                     {
                                                         $id = $row['id'];
@@ -200,7 +192,7 @@ if (!$conn) {
                                                 <tbody>
                                                 <?php
                                                 $sql = "select * from dana where statusDana='Menunggu Persetujuan' and keterangan='Top Up'";
-												$query = mysqli_query($conn, $sql);
+												$query = mysqli_query($koneksi, $sql);
                                                     while ($row = mysqli_fetch_array($query))
                                                     {
                                                         $id = $row['id'];
@@ -258,7 +250,7 @@ if (!$conn) {
                                                 <tbody>
                                                 <?php
                                                 $sql = "select * from kegiatan where status='Berlangsung' and keterangan='Penggalangan Dana'";
-												$query = mysqli_query($conn, $sql);
+												$query = mysqli_query($koneksi, $sql);
                                                     while ($row = mysqli_fetch_array($query))
                                                     {
 														
@@ -292,7 +284,7 @@ if (!$conn) {
                                                 <tbody>
                                                 <?php
                                                 $sql = "select * from kegiatan where status='Berlangsung' and keterangan='Pengerjaan Proyek'";
-												$query = mysqli_query($conn, $sql);
+												$query = mysqli_query($koneksi, $sql);
                                                     while ($row = mysqli_fetch_array($query))
                                                     {
 															$data = $row['proposal'];
@@ -341,7 +333,7 @@ if (!$conn) {
                                                 <tbody>
                                                 <?php
                                                 $sql = "select * from kegiatan where status='Selesai'";
-                                                $query = mysqli_query($conn, $sql);
+                                                $query = mysqli_query($koneksi, $sql);
                                                     while ($row = mysqli_fetch_array($query))
                                                     {
 														$data = $row['proposal'];
