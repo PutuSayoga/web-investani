@@ -79,7 +79,7 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="assets/images/slider/home-slider-1.jpg" alt="" >
+                    <img src="https://investani.s3.amazonaws.com/assets/images/slider/home-slider-1.jpg" alt="" >
                     <div class="container">
                         <div class="carousel-caption">
                             <h2 class="carousel-title bounceInDown animated slow">INVESTANI</h2>
@@ -90,7 +90,7 @@
                 </div>
                 <!-- /.item -->
                 <div class="item ">
-                    <img src="assets/images/slider/home-slider-2.jpg" alt="">
+                    <img src="https://investani.s3.amazonaws.com/assets/images/slider/home-slider-2.jpg" alt="">
                     <div class="container">
                         <div class="carousel-caption">
                             <h2 class="carousel-title bounceInDown animated slow">CROWDFUNDING</h2>
@@ -101,7 +101,7 @@
                 </div>
                 <!-- /.item -->
                 <div class="item ">
-                    <img src="assets/images/slider/home-slider-3.jpg" alt="">
+                    <img src="https://investani.s3.amazonaws.com/assets/images/slider/home-slider-3.jpg" alt="">
                     <div class="container">
                         <div class="carousel-caption">
                             <h2 class="carousel-title bounceInDown animated slow" >PEER TO PEER LENDING</h2>
