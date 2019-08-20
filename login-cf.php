@@ -9,13 +9,13 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
         <!-- Bootsrap -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/bootstrap.min.css">
         <!-- Font awesome -->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/font-awesome.min.css">
         <!-- Template main Css -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/style.css">
         <!-- Modernizr -->
-        <script src="assets/js/modernizr-2.6.2.min.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/modernizr-2.6.2.min.js"></script>
 		 
     <body>
         <!-- NAVBAR
@@ -53,7 +53,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="index.php"><img src="assets/images/ptpnx-logo.png" alt=""></a>
+                            <a class="navbar-brand" href="index.php"><img src="https://investani.s3.amazonaws.com/assets/images/ptpnx-logo.png" alt=""></a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse pull-right">
                             <ul class="nav navbar-nav">
@@ -179,10 +179,10 @@
 		  <div class="modal-body">
 		  <div class="row">
                             <div class="form-group col-md-6">
-							<a href="register-cf.php"><img src="assets/images/ptpnx-logo.png"><div>CrowdFunding <br>(Patungan) </div></a>
+							<a href="register-cf.php"><img src="https://investani.s3.amazonaws.com/assets/images/ptpnx-logo.png"><div>CrowdFunding <br>(Patungan) </div></a>
                             </div>
                             <div class="form-group col-md-6">
-							<a href="register-p2p.php"><img src="assets/images/ptpnx-logo.png"><div>Peer to Peer <br>(Pendanaan Langsung)</div></a>
+							<a href="register-p2p.php"><img src="https://investani.s3.amazonaws.com/assets/images/ptpnx-logo.png"><div>Peer to Peer <br>(Pendanaan Langsung)</div></a>
                             </div>
                         </div>
           </div>
@@ -193,13 +193,13 @@
 		
         <!-- jQuery -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="https://investani.s3.amazonaws.com/assets/js/jquery-1.11.1.min.js"><\/script>')</script>
         <!-- Bootsrap javascript file -->
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/bootstrap.min.js"></script>
         <!-- Google map  -->
         <script src="http://maps.google.com/maps/api/js?sensor=false&amp;libraries=places" type="text/javascript"></script>
         <!-- Template main javascript -->
-        <script src="assets/js/main.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/main.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

@@ -5,7 +5,7 @@ include_once 'Koneksi.php';
 $id = $_POST['getDetail'];
 
 ?>
-<link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css" type="text/css">
+<link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/bootstrap-datetimepicker.min.css" type="text/css">
             <!-- Modal -->
               <form class="form-donation" action="cek-peng.php" method="post">
                             <div class="row">
@@ -58,9 +58,9 @@ $id = $_POST['getDetail'];
                                 <!--End Timeline -->
                             
                         </form>
-                        <script type="text/javascript" src="assets/js/my.js"></script> 
-                        <script src="assets/js/moment.js"></script>
-                        <script type="text/javascript" src="assets/js/bootstrap-datetimepicker.min.js"></script>
+                        <script type="text/javascript" src="https://investani.s3.amazonaws.com/assets/js/my.js"></script> 
+                        <script src="https://investani.s3.amazonaws.com/assets/js/moment.js"></script>
+                        <script type="text/javascript" src="https://investani.s3.amazonaws.com/assets/js/bootstrap-datetimepicker.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
             

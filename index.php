@@ -9,15 +9,15 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
         <!-- Bootsrap -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/bootstrap.min.css">
         <!-- Font awesome -->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/font-awesome.min.css">
         <!-- Owl carousel -->
-        <link rel="stylesheet" href="assets/css/owl.carousel.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/owl.carousel.css">
         <!-- Template main Css -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/style.css">
         <!-- Modernizr -->
-        <script src="assets/js/modernizr-2.6.2.min.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <header class="main-header">
@@ -51,7 +51,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="index.php"><img src="assets/images/ptpnx-logo.png" alt=""></a>
+                            <a class="navbar-brand" href="index.php"><img src="https://investani.s3.amazonaws.com/assets/images/ptpnx-logo.png" alt=""></a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse pull-right">
                             <ul class="nav navbar-nav">
@@ -128,7 +128,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="about-us-col">
                             <div class="col-icon-wrapper">
-                                <img src="assets/images/icons/login-icon.png" alt="">
+                                <img src="https://investani.s3.amazonaws.com/assets/images/icons/login-icon.png" alt="">
                             </div>
                             <h3 class="col-title">DAFTAR/LOGIN</h3>
                             <div class="col-details">
@@ -140,7 +140,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="about-us-col">
                             <div class="col-icon-wrapper">
-                                <img src="assets/images/icons/choice-icon.png" alt="">
+                                <img src="https://investani.s3.amazonaws.com/assets/images/icons/choice-icon.png" alt="">
                             </div>
                             <h3 class="col-title">PILIH/BUKA PROYEK</h3>
                             <div class="col-details">
@@ -152,7 +152,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="about-us-col">
                             <div class="col-icon-wrapper">
-                                <img src="assets/images/icons/list-view-icon.png" alt="">
+                                <img src="https://investani.s3.amazonaws.com/assets/images/icons/list-view-icon.png" alt="">
                             </div>
                             <h3 class="col-title">LENGKAPI SYARAT</h3>
                             <div class="col-details">
@@ -164,7 +164,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="about-us-col">
                             <div class="col-icon-wrapper">
-                                <img src="assets/images/icons/money-icon.png" alt="">
+                                <img src="https://investani.s3.amazonaws.com/assets/images/icons/money-icon.png" alt="">
                             </div>
                             <h3 class="col-title">NIKMATI PROFIT</h3>
                             <div class="col-details">
@@ -193,7 +193,7 @@
                                     <br>
                                     <div class="row">
                                         <div class="col-sm-2">
-                                            <img src="assets/images/team/team.png" class="img-responsive" style="width: 80px">
+                                            <img src="https://investani.s3.amazonaws.com/assets/images/team/team.png" class="img-responsive" style="width: 80px">
                                         </div>
                                         <div class="col-sm-10">
                                             <h4><strong>Alfin Martin</strong></h4>
@@ -210,7 +210,7 @@
                                     <br>
                                     <div class="row">
                                         <div class="col-sm-2">
-                                            <img src="assets/images/team/team.png" class="img-responsive" style="width: 80px">
+                                            <img src="https://investani.s3.amazonaws.com/assets/images/team/team.png" class="img-responsive" style="width: 80px">
                                         </div>
                                         <div class="col-sm-10">
                                             <h4><strong>Wahyudi</strong></h4>
@@ -236,8 +236,8 @@
 			<center>
                 <h2 class="title-style-1">Rekan Kami <span class="title-under"></span></h2>
                 <ul class="owl-carousel list-unstyled list-sponsors">
-                    <li> <img src="assets/images/sponsors/ojk.png" alt=""></li>
-                    <li> <img src="assets/images/sponsors/ptpnx-logo.jpg" alt=""></li>
+                    <li> <img src="https://investani.s3.amazonaws.com/assets/images/sponsors/ojk.png" alt=""></li>
+                    <li> <img src="https://investani.s3.amazonaws.com/assets/images/sponsors/ptpnx-logo.jpg" alt=""></li>
                 </ul>
 			</center>
             </div>
@@ -369,14 +369,14 @@
                             <center>
                                 <div class="form-group col-md-6">
                                     <a href="login-cf.php">
-                                        <img src="assets/images/ptpnx-logo.png">
+                                        <img src="https://investani.s3.amazonaws.com/assets/images/ptpnx-logo.png">
                                         <div><b>CrowdFunding</b></div>
                                     </a>
                                     <h5>Pengumpulan dana dari anda untuk membiayai proyek <br>(Patungan)</h5>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <a href="login-p2p.php">
-                                        <img src="assets/images/ptpnx-logo.png">
+                                        <img src="https://investani.s3.amazonaws.com/assets/images/ptpnx-logo.png">
                                         <div><b>Peer to Peer</b></div>
                                     </a>
                                     <h5>Pengumpulan dana dari bank untuk membiayai proyek <br>(Pendanaan Langsung)</h5>
@@ -403,14 +403,14 @@
                             <center>
                                 <div class="form-group col-md-6">
                                     <a href="register-cf.php">
-                                        <img src="assets/images/ptpnx-logo.png">
+                                        <img src="https://investani.s3.amazonaws.com/assets/images/ptpnx-logo.png">
                                         <div>CrowdFunding</div>
                                     </a>
                                     <h5>Pengumpulan dana dari anda untuk membiayai proyek <br>(Patungan)</h5>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <a href="register-p2p.php">
-                                        <img src="assets/images/ptpnx-logo.png">
+                                        <img src="https://investani.s3.amazonaws.com/assets/images/ptpnx-logo.png">
                                         <div>Peer to Peer</div>
                                     </a>
                                     <h5>Pengumpulan dana dari bank untuk membiayai proyek <br>(Pendanaan Langsung)</h5>
@@ -426,13 +426,13 @@
             ================================================== -->
         <!-- jQuery -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="https://investani.s3.amazonaws.com/assets/js/jquery-1.11.1.min.js"><\/script>')</script>
         <!-- Bootsrap javascript file -->
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/bootstrap.min.js"></script>
         <!-- owl carouseljavascript file -->
-        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/owl.carousel.min.js"></script>
         <!-- Template main javascript -->
-        <script src="assets/js/main.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/main.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

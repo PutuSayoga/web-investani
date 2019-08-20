@@ -55,19 +55,19 @@ if ($lembar>$value) {
         <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
 
         <!-- Bootsrap -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/bootstrap.min.css">
 
 
         <!-- Font awesome -->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/font-awesome.min.css">
 
         <!-- Template main Css -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/style.css">
         
         <!-- Modernizr -->
-        <script src="assets/js/modernizr-2.6.2.min.js"></script>
-		<script type="text/javascript" src="assetss/js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="assets/js/my.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/modernizr-2.6.2.min.js"></script>
+		<script type="text/javascript" src="https://investani.s3.amazonaws.com/assetss/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="https://investani.s3.amazonaws.com/assets/js/my.js"></script>
 
     </head>
     <body>
@@ -93,7 +93,7 @@ if ($lembar>$value) {
 							<?php
                                 echo "<div class=\"col-sm-6 col-xs-12 text-right\">";
                                 echo "<ul class=\"list-unstyled list-inline header-social\">";
-                                echo "<li><img src=\"assets/images/icons/wallet.png\"></li>";
+                                echo "<li><img src=\"https://investani.s3.amazonaws.com/assets/images/icons/wallet.png\"></li>";
                                 $formattedNum = number_format($saldo,0,',','.')."<br>";
                                 echo "<li><a class=\"is-active\" href=\"saldo-cf-inv.php\">Rp $formattedNum</a></li>";
                                 echo "<li><a class=\"is-active\" href=\"logout.php\">Keluar</a></li></ul></div>";
@@ -120,7 +120,7 @@ if ($lembar>$value) {
 
                   </button>
                   
-                  <a class="navbar-brand" href="home-cf-in.php"><img src="assets/images/ptpnx-logo.png" alt=""></a>
+                  <a class="navbar-brand" href="home-cf-in.php"><img src="https://investani.s3.amazonaws.com/assets/images/ptpnx-logo.png" alt=""></a>
                   
                 </div>
 
@@ -401,7 +401,7 @@ if ($lembar>$value) {
                     </div>
                     <div class="modal-body">
                     <center>
-                    <img src="assets/images/icons/bca.png" alt="Person" width="96" height="96">
+                    <img src="https://investani.s3.amazonaws.com/assets/images/icons/bca.png" alt="Person" width="96" height="96">
                                         <h4><p>1. Masukkan kartu BCA anda dan masukkan pin anda</p>
                                         <p>2. Pilih transfer dan pilih BCA Virtual Account</p>
                                         <p>3. Masukkan kode perusahaan Investani : 8888 dan nomor handphone anda yang terdaftar di akun anda (contoh : 
@@ -409,7 +409,7 @@ if ($lembar>$value) {
                                         </p>
                                         <p>4. Masukkan jumlah nominal yang anda inginkan</p>
                                         <p>5. Ikuti instruksi selanjutnya untuk menyelesaikan transaksi anda</p>
-                                        <img src="assets/images/icons/mandiri.png" alt="Person" width="96" height="96">
+                                        <img src="https://investani.s3.amazonaws.com/assets/images/icons/mandiri.png" alt="Person" width="96" height="96">
                                         <p>1. Masukkan kartu Mandiri anda dan masukkan pin anda</p>
                                         <p>2. Pilih Bayar/Beli > Lainnya > Lainnya > Pilih Perusahaan Lainnya</p>
                                         <p>3. Masukkan kode perusahaan Investani : 9898 dan nomor handphone anda yang terdaftar di akun anda (contoh : 
@@ -417,7 +417,7 @@ if ($lembar>$value) {
                                         </p>
                                         <p>4. Masukkan jumlah nominal yang anda inginkan</p>
                                         <p>5. Ikuti instruksi selanjutnya untuk menyelesaikan transaksi anda</p>
-                                        <img src="assets/images/icons/bni.png" alt="Person" width="96" height="96">
+                                        <img src="https://investani.s3.amazonaws.com/assets/images/icons/bni.png" alt="Person" width="96" height="96">
                                         <p>1. Masukkan kartu BNI anda dan masukkan pin anda</p>
                                         <p>2. Pilih Menu Lain > Pembayaran > Menu Berikutnya > Menu Berikutnya > Pembayaran Lain Lain </p>
                                         <p>3. Masukkan kode perusahaan Investani : 8080 dan nomor handphone anda yang terdaftar di akun anda (contoh : 
@@ -499,19 +499,19 @@ if ($lembar>$value) {
         </footer>
         <!-- jQuery -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="https://investani.s3.amazonaws.com/assets/js/jquery-1.11.1.min.js"><\/script>')</script>
         <!-- Template main javascript -->
-        <script src="assets/js/main.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/main.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!-- js untuk jquery -->
-        <script src="assets/js/jquery-1.11.2.min.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/jquery-1.11.2.min.js"></script>
         <!-- js untuk bootstrap -->
-        <script src="assets/js/bootstrap.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/bootstrap.js"></script>
         <!-- js untuk moment -->
-        <script src="assets/js/moment.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/moment.js"></script>
         <!-- js untuk bootstrap datetimepicker -->
-        <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
-		<script src="assets/js/modernizr.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/bootstrap-datetimepicker.min.js"></script>
+		<script src="https://investani.s3.amazonaws.com/assets/js/modernizr.js"></script>
 		<script src="js/jquery-2.1.1.js"></script>
 		<script src="js/jquery.mobile.custom.min.js"></script>
         <script>
