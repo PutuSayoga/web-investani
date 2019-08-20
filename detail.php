@@ -8,7 +8,7 @@ $row = mysqli_fetch_array($sql);
 $_SESSION['proyek']= $row['proyek'];
 $_SESSION['danasisa'] = $row['danasisa'];
 ?>
-<link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css" type="text/css">
+<link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/bootstrap-datetimepicker.min.css" type="text/css">
             <!-- Modal -->
               <form class="form-donation" action="cek_ambildana.php" method="post">
                             <div class="row">
@@ -75,9 +75,9 @@ $_SESSION['danasisa'] = $row['danasisa'];
                                 <!--End Timeline -->
                             </div>
                         </form>
-                        <script type="text/javascript" src="assets/js/my.js"></script> 
-                        <script src="assets/js/moment.js"></script>
-                        <script type="text/javascript" src="assets/js/bootstrap-datetimepicker.min.js"></script>
+                        <script type="text/javascript" src="https://investani.s3.amazonaws.com/assets/js/my.js"></script> 
+                        <script src="https://investani.s3.amazonaws.com/assets/js/moment.js"></script>
+                        <script type="text/javascript" src="https://investani.s3.amazonaws.com/assets/js/bootstrap-datetimepicker.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
             

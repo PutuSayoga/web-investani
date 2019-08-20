@@ -38,17 +38,17 @@ $row = mysqli_fetch_array($query);
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
         <!-- Bootsrap -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/bootstrap.min.css">
         <!-- Font awesome -->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/font-awesome.min.css">
         <!-- PrettyPhoto -->
-        <link rel="stylesheet" href="assets/css/prettyPhoto.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/prettyPhoto.css">
         <!-- Template main Css -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/style.css">
         <!-- Modernizr -->
-        <script src="assets/js/modernizr-2.6.2.min.js"></script>
-        <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css" type="text/css">
-        <script type="text/javascript" src="assets/js/my.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/bootstrap-datetimepicker.min.css" type="text/css">
+        <script type="text/javascript" src="https://investani.s3.amazonaws.com/assets/js/my.js"></script>
     </head>
     <body>
         <header class="main-header">
@@ -66,7 +66,7 @@ $row = mysqli_fetch_array($query);
                             <?php
                                 echo "<div class=\"col-sm-6 col-xs-12 text-right\">";
                                 echo "<ul class=\"list-unstyled list-inline header-social\">";
-                                echo "<li><img src=\"assets/images/icons/wallet.png\"></li>";
+                                echo "<li><img src=\"https://investani.s3.amazonaws.com/assets/images/icons/wallet.png\"></li>";
                                 $formattedNum = number_format($saldo,0,',','.')."<br>";
                                 echo "<li><a class=\"is-active\" href=\"saldo-cf-in.php\">Rp $formattedNum</a></li>";
                                 echo "<li><a class=\"is-active\" href=\"logout.php\">Keluar</a></li></ul></div>";
@@ -85,7 +85,7 @@ $row = mysqli_fetch_array($query);
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="home-cf-in.php"><img src="assets/images/ptpnx-logo.png" alt=""></a>
+                            <a class="navbar-brand" href="home-cf-in.php"><img src="https://investani.s3.amazonaws.com/assets/images/ptpnx-logo.png" alt=""></a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse pull-right">
                             <ul class="nav navbar-nav">
@@ -295,20 +295,20 @@ $row = mysqli_fetch_array($query);
         </footer>
         <!-- jQuery -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="https://investani.s3.amazonaws.com/assets/js/jquery-1.11.1.min.js"><\/script>')</script>
         <!-- Bootsrap javascript file -->
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/bootstrap.min.js"></script>
         <!-- Template main javascript -->
-        <script src="assets/js/main.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/main.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!-- js untuk jquery -->
-        <script src="assets/js/jquery-1.11.2.min.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/jquery-1.11.2.min.js"></script>
         <!-- js untuk bootstrap -->
-        <script src="assets/js/bootstrap.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/bootstrap.js"></script>
         <!-- js untuk moment -->
-        <script src="assets/js/moment.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/moment.js"></script>
         <!-- js untuk bootstrap datetimepicker -->
-        <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/bootstrap-datetimepicker.min.js"></script>
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;

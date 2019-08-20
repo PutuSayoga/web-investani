@@ -19,16 +19,16 @@ if(!isset($_SESSION['username'])){
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
         <!-- Bootsrap -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/bootstrap.min.css">
         <!-- Font awesome -->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/font-awesome.min.css">
         <!-- PrettyPhoto -->
-        <link rel="stylesheet" href="assets/css/prettyPhoto.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/prettyPhoto.css">
         <!-- Template main Css -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/style.css">
         <!-- Modernizr -->
-        <script src="assets/js/modernizr-2.6.2.min.js"></script>
-        <script type="text/javascript" src="assetss/js/jquery-1.10.2.min.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript" src="https://investani.s3.amazonaws.com/assetss/js/jquery-1.10.2.min.js"></script>
     </head>
     <body>
         <header class="main-header">
@@ -63,7 +63,7 @@ if(!isset($_SESSION['username'])){
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#"><img src="assets/images/ptpnx-logo.png" alt=""></a>
+                            <a class="navbar-brand" href="#"><img src="https://investani.s3.amazonaws.com/assets/images/ptpnx-logo.png" alt=""></a>
                         </div>
                         <!-- /#navbar -->
                     </div>
@@ -442,18 +442,18 @@ if(!isset($_SESSION['username'])){
         <!-- /.modal -->
         <!-- jQuery -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="https://investani.s3.amazonaws.com/assets/js/jquery-1.11.1.min.js"><\/script>')</script>
 
         <!-- Template main javascript -->
-        <script src="assets/js/main.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/main.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!-- js untuk jquery -->
-        <script src="assets/js/jquery-1.11.2.min.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/jquery-1.11.2.min.js"></script>
         <!-- js untuk bootstrap -->
-        <script src="assets/js/bootstrap.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/bootstrap.js"></script>
         <!-- js untuk moment -->
-        <script src="assets/js/jquery-2.2.3.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/jquery-2.2.3.min.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/bootstrap.min.js"></script>
 
         <!-- Ini merupakan script yang terpenting -->
         <script type="text/javascript">
