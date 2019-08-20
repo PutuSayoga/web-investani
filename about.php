@@ -11,16 +11,16 @@
         <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
 
         <!-- Bootsrap -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/bootstrap.min.css">
 
         <!-- Font awesome -->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/font-awesome.min.css">
 
         <!-- Template main Css -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://investani.s3.amazonaws.com/assets/css/style.css">
         
         <!-- Modernizr -->
-        <script src="assets/js/modernizr-2.6.2.min.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/modernizr-2.6.2.min.js"></script>
 
 
     </head>
@@ -83,7 +83,7 @@
 
                   </button>
                   
-                  <a class="navbar-brand" href="index.php"><img src="assets/images/ptpnx-logo.png" alt=""></a>
+                  <a class="navbar-brand" href="index.php"><img src="https://investani.s3.amazonaws.com/assets/images/ptpnx-logo.png" alt=""></a>
                   
                 </div>
 
@@ -131,7 +131,7 @@
 
 				<div class="col-md-6">
 
-					<img src="assets/images/about-us.jpg" alt="" class="img-responsive">
+					<img src="https://investani.s3.amazonaws.com/assets/images/about-us.jpg" alt="" class="img-responsive">
 
 				</div>
 
@@ -289,11 +289,11 @@
 		  <div class="modal-body">
 		  <div class="row">
                             <center><div class="form-group col-md-6">
-							<a href="login-cf.php"><img src="assets/images/ptpnx-logo.png"><div><b>CrowdFunding</b></div></a>
+							<a href="login-cf.php"><img src="https://investani.s3.amazonaws.com/assets/images/ptpnx-logo.png"><div><b>CrowdFunding</b></div></a>
 							<h5>Pengumpulan dana dari anda untuk membiayai proyek</h5>
                             </div>
                             <div class="form-group col-md-6">
-							<a href="login-p2p.php"><img src="assets/images/ptpnx-logo.png"><div><b>Peer to Peer</b></div></a>
+							<a href="login-p2p.php"><img src="https://investani.s3.amazonaws.com/assets/images/ptpnx-logo.png"><div><b>Peer to Peer</b></div></a>
 							<h5>Pengumpulan dana dari bank untuk membiayai proyek</h5>
                             </div></center>
                         </div>
@@ -315,11 +315,11 @@
 		  <div class="modal-body">
 		  <div class="row">
                           <center><div class="form-group col-md-6">
-							<a href="register-cf.php"><img src="assets/images/ptpnx-logo.png"><div>CrowdFunding</div></a>
+							<a href="register-cf.php"><img src="https://investani.s3.amazonaws.com/assets/images/ptpnx-logo.png"><div>CrowdFunding</div></a>
 							<h5>Pengumpulan dana dari anda untuk membiayai proyek</h5>
                             </div>
                             <div class="form-group col-md-6">
-							<a href="register-p2p.php"><img src="assets/images/ptpnx-logo.png"><div>Peer to Peer</div></a>
+							<a href="register-p2p.php"><img src="https://investani.s3.amazonaws.com/assets/images/ptpnx-logo.png"><div>Peer to Peer</div></a>
 							<h5>Pengumpulan dana dari bank untuk membiayai proyek</h5>
                             </div></center>
                         </div>
@@ -332,14 +332,14 @@
         
         <!-- jQuery -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="https://investani.s3.amazonaws.com/assets/js/jquery-1.11.1.min.js"><\/script>')</script>
 
         <!-- Bootsrap javascript file -->
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/bootstrap.min.js"></script>
 
 
         <!-- Template main javascript -->
-        <script src="assets/js/main.js"></script>
+        <script src="https://investani.s3.amazonaws.com/assets/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
