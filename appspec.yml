@@ -1,0 +1,19 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html
+    overwrite: true
+hooks:
+  BeforeInstall:
+    - location: scripts/installDependencies.sh
+      timeout: 30
+      runas: root
+  ApplicationStart:
+    - location: scripts/startServer.sh
+      timeout: 30
+      runas: root
+  ApplicationStop:
+    - location: scripts/stopServer.sh
+      timeout: 30
+      runas: root
