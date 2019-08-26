@@ -5,15 +5,15 @@ files:
     destination: /var/www/html
     overwrite: true
 hooks:
+  ApplicationStop:
+    - location: scripts/stopServer.sh
+      timeout: 60
+      runas: root
   BeforeInstall:
     - location: scripts/installDependencies.sh
-      timeout: 30
+      timeout: 60
       runas: root
   ApplicationStart:
     - location: scripts/startServer.sh
-      timeout: 30
-      runas: root
-  ApplicationStop:
-    - location: scripts/stopServer.sh
-      timeout: 30
+      timeout: 60
       runas: root
